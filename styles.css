@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    text-align: center;
+    color: aquamarine;
+    width: fit-content;
+    margin: auto;
+}
+h1{
+    background-color: rgb(87, 14, 14);
+    font-size: larger;
+}
+.loaded_project{
+    font-size: medium;
+}
+*{
+    border: 2px dashed gray;
+    border-radius: 10px;
+}
+.Git_links{
+    padding: 0 10px 0 10px;
+    margin: 5px;
+    width: max-content;
+    list-style: none;
+}
+a{
+    margin: 5px;
+}
