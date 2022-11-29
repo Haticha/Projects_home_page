@@ -5,6 +5,14 @@ body{
     width: fit-content;
     margin: auto;
 }
+.github_projects{
+    display:flex;
+}
+.github_projects div {
+    background-color: coral;
+    border-radius: 0.2px;
+    flex: 1;
+}
 h1{
     background-color: rgb(87, 14, 14);
     font-size: larger;
@@ -12,10 +20,12 @@ h1{
 .loaded_project{
     font-size: medium;
 }
+/*
 *{
     border: 2px dashed gray;
     border-radius: 10px;
 }
+*/
 .Git_links{
     padding: 0 10px 0 10px;
     margin: 5px;
