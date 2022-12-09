@@ -1,37 +1,63 @@
-body{
+html {
     background-color: black;
+   }
+   
+*{
+    background-color:inherit;
     text-align: center;
     color: aquamarine;
-    width: fit-content;
-    margin: auto;
+    /*border: 2px dashed gray;
+    border-radius: 10px;*/
 }
-.github_projects{
-    display:flex;
-}
-.github_projects div {
-    background-color: coral;
-    border-radius: 0.2px;
-    flex: 1;
-}
+.Global{
+    background-color: rgb(61, 61, 61);
+    align-content: stretch;
+    }
+    .Page{
+        display: flex;
+    }
+    .Sidebar{
+        display: flex;
+        justify-content: flex-start;
+        margin: auto;
+        margin-left: 0px;
+        margin-right: 10px;
+        width: fit-content;
+        }
+        .github_projects{
+        display: flex;
+            }
+        .github_projects div {
+        background-color: coral;
+        border-radius: 0.2px;
+       border: 2px blue;
+        flex: 1;
+            }
+            .Git_links{
+                padding: 0 10px 0 10px;
+                margin: 5px;
+                width: max-content;
+                list-style: none;
+                }
+    .Header{
+        margin: auto;
+        flex: auto;
+        }        
 h1{
     background-color: rgb(87, 14, 14);
     font-size: larger;
-}
+    }
+h2{
+    background-color: inherit;
+    }
+h3{
+    background-color: inherit;
+    }
 .loaded_project{
     font-size: medium;
-}
-/*
-*{
-    border: 2px dashed gray;
-    border-radius: 10px;
-}
-*/
-.Git_links{
-    padding: 0 10px 0 10px;
-    margin: 5px;
-    width: max-content;
-    list-style: none;
-}
+    }
+
 a{
+    background-color: inherit;
     margin: 5px;
-}
+    }
