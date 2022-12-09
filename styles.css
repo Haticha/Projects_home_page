@@ -19,17 +19,25 @@ html {
     .Sidebar{
         display: flex;
         justify-content: flex-start;
-        margin: auto;
-        margin-left: 0px;
-        margin-right: 10px;
+        margin: 5pt;
         width: fit-content;
+        height: fit-content;
+        ;
+        }
+        .Info_sidebar{
+            height: fit-content;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .Content_sidebar{
+            padding: 10px;
+            border-radius: 10px;  
         }
         .github_projects{
         display: flex;
             }
         .github_projects div {
         background-color: coral;
-        border-radius: 0.2px;
        border: 2px blue;
         flex: 1;
             }
