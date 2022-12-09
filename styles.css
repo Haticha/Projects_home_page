@@ -15,14 +15,19 @@ html {
     }
     .Page{
         display: flex;
+        flex-wrap: wrap;
     }
+    .Header{
+        margin: auto;
+        flex: auto;
+        }
     .Sidebar{
         display: flex;
         justify-content: flex-start;
         margin: 5pt;
         width: fit-content;
         height: fit-content;
-        ;
+        
         }
         .Info_sidebar{
             height: fit-content;
@@ -33,24 +38,33 @@ html {
             padding: 10px;
             border-radius: 10px;  
         }
+        .Content_sidebar > ol:nth-child(1) {
+            padding-left: 0px;
+           }
         .github_projects{
         display: flex;
+        flex-direction: column;
             }
         .github_projects div {
         background-color: coral;
-       border: 2px blue;
+        border: 2px blue;
         flex: 1;
             }
             .Git_links{
                 padding: 0 10px 0 10px;
                 margin: 5px;
                 width: max-content;
-                list-style: none;
+                list-style: symbols(cyclic "~");
+                list-style-position: inside;
                 }
-    .Header{
-        margin: auto;
-        flex: auto;
-        }        
+    .Content{
+        flex: 1;
+    }
+    .moodbar{
+        display: flex;
+        justify-content: end;
+        flex-direction: column-reverse;
+    }        
 h1{
     background-color: rgb(87, 14, 14);
     font-size: larger;
